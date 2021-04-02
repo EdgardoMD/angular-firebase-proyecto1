@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-firebase-p1": {
+      "hosting": {
+        "proyecto-emd": [
+          "angular-firebase-p1"
+        ]
+      }
+    }
+  }
+}
