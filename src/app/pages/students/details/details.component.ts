@@ -35,10 +35,8 @@ export class DetailsComponent implements OnInit {
   }
 
   async onGoToDelete(): Promise<void> {
-    
     try {
       await this.studentsSvc.onDeleteStudent(this.student?.id);
-      alert('¡Has eliminado el registro permanentemente!');
       this.onGoBackToList();
     } catch (err) {
       console.log(err);
