@@ -8,15 +8,4 @@ app.get('/',function(req,res){
     res.sendFile(path.join(__dirname+'/dist/ng-blog/index.html'));
 });
 
-app.listen(process.env.PORT || 8081);
-
-"scripts": {
-    "ng": "ng",
-    "start": "node server.js",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "lite": "lite-server",
-    "postinstall": "ng build --prod"
-  }
+app.listen(process.env.PORT || 8085);
